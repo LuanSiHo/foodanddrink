@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textColor="@color/textColorPrimaryLight"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:text="@string/ch_n_ng_n_ng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:background="@color/textColorPrimarySecondLight"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
+    <View
+        android:background="@color/textColorPrimarySecondLight"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_cancel_choose_lang"
+            android:textAllCaps="false"
+            android:textColor="@color/textColorPrimaryLight"
+            android:background="@android:color/transparent"
+            android:layout_weight="5"
+            android:text="@string/h_y"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <View
+            android:background="@color/textColorPrimarySecondLight"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/btn_ok_choose_lang"
+            android:textAllCaps="false"
+            android:background="@android:color/transparent"
+            android:textColor="@color/textColorPrimaryLight"
+            android:layout_weight="5"
+            android:text="@string/xong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

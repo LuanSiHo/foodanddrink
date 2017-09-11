@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Food And Drink</string>
+    <string name="facebook_app_id">136624480279001</string>
+    <string name="fb_login_protocol_scheme">fb136624480279001</string>
+    <string name="food">Đồ ăn</string>
+    <string-array name="array_menu_name">
+        <item>Đồ ăn</item>
+        <item>Thức uống</item>
+        <item>Bánh</item>
+        <item>Trái cây</item>
+        <item>Rượu bia</item>
+    </string-array>
+
+    <string-array name="array_choice">
+        <item>Chỉ đường</item>
+        <item>Lưu lại</item>
+        <item>Chia sẻ</item>
+    </string-array>
+    <string-array name="array_choice_image">
+        <item>@drawable/ic_choice_direct</item>
+        <item>@drawable/ic_choice_save</item>
+        <item>@drawable/ic_choice_share</item>
+    </string-array>
+    <string-array name="array_me">
+        <item>Thiết lập tài khoản</item>
+        <item>Cài đặt</item>
+        <item>Đăng xuất</item>
+    </string-array>
+    <string-array name="array_me_image">
+        <item>@drawable/ic_me</item>
+        <item>@drawable/ic_setting</item>
+        <item>@drawable/ic_log_out</item>
+    </string-array>
+
+    <string-array name="array_setting">
+        <item>Ngôn ngữ</item>
+    </string-array>
+
+    <string-array name="array_setting_image">
+        <item>@drawable/ic_language</item>
+    </string-array>
+    <string-array name="array_setting_image_go">
+        <item>@drawable/ic_send</item>
+    </string-array>
+
+    <integer-array name="array_menu_image">
+        <item>@drawable/food</item>
+        <item>@drawable/drink</item>
+        <item>@drawable/cake</item>
+        <item>@drawable/fruit</item>
+        <item>@drawable/beer</item>
+    </integer-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ch_o_m_ng_b_n_n_v_i_food_and_drink">Chào mừng bạn đến với Food and Drink!</string>
+    <string name="vui_l_ng_ng_nh_p_b_ng_facebook">Vui lòng đăng nhập bằng Facebook</string>
+    <string name="thi_t_l_p_t_i_kho_n">Thiết lập tài khoản</string>
+    <string name="h_t_n">Họ tên:</string>
+    <string name="email">Email:</string>
+    <string name="gi_i_t_nh">Giới tính:</string>
+    <string name="l_u_thay_i">Lưu thay đổi</string>
+    <string name="c_i_t">Cài đặt</string>
+    <string name="kh_ng_t_m_th_y_d_li_u">Không tìm thấy dữ liệu</string>
+    <string name="xin_ch_o">"Xin Chào "</string>
+    <string name="ch_n_ng_n_ng">Chọn ngôn ngữ</string>
+    <string name="h_y">Hủy</string>
+    <string name="xong">Xong</string>
+    <string name="ch_n_t_nh_th_nh_ph">Chọn tỉnh/Thành phố</string>
+    <string name="xong1">Xong</string>
+    <string name="huy1">Hủy</string>
+    <string name="l_u">Đã lưu</string>
+    <string name="x_a">Xóa</string>
+    <string name="da_luu1">Đã Lưu</string>
+    <string name="home">Trang chủ</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="save">Lưu</string>
+    <string name="me">Tài Khoản</string>
+    <string name="Language">Tiếng việt</string>
+    <string name="take_a_photo">Chụp ảnh</string>
+    <string name="choose_form_gallery">Chọn từ thư viện</string>
+    <string name="g_n_t_i">Gần tôi</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="logout_question">Bạn có muốn đăng xuất?</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hosiluan.foodanddrink">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".mainactivity.MainActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".loginactivity.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCa5BL1DS8l5Z1STrbUufVDeBREcP7BJNc" />
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider136624480279001"
+            android:exported="true" />
+
+        <activity android:name=".searchactivity.SearchActivity" />
+        <activity android:name=".choosecity.ChooseCityActivity" />
+        <activity android:name=".placeactivity.PlaceActivity" />
+        <activity android:name=".placedetailactivity.PlaceDetailActivity" />
+        <activity android:name=".menuactivity.MenuActivity" />
+        <activity android:name=".showdirectionactivity.ShowDirectionActivity" />
+        <activity android:name=".profilesettingactivity.ProfileSettingActivity" />
+        <activity android:name=".settingactivity.SettingActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:gravity="center"
+    android:padding="10dp"
+    android:layout_marginRight="@dimen/item_choice_menu_margin"
+    android:background="@drawable/ripple"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/img_choice"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="@dimen/img_choice_menu_detail_size"
+        android:layout_height="@dimen/img_choice_menu_detail_size" />
+    <TextView
+        android:id="@+id/tv_choice"
+        android:textSize="14sp"
+        android:textColor="@color/textColorPrimary"
+        android:gravity="center"
+        android:text="Choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

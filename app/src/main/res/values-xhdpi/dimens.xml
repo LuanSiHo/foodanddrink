@@ -1,0 +1,17 @@
+<resources>
+    <dimen name="img_item_menu_width">220dp</dimen>
+    <dimen name="img_item_menu_height">150dp</dimen>
+    <dimen name="img_profile_home_size">93.74999dp</dimen>
+    <dimen name="tv_city_size">22.499998sp</dimen>
+    <dimen name="tv_hello_home_size">23.75sp</dimen>
+    <dimen name="tv_type_place_home_size">20.0sp</dimen>
+    <dimen name="img_place_size">110dp</dimen>
+    <dimen name="tv_place_item_size">19sp</dimen>
+    <dimen name="item_place_size">100dp</dimen>
+    <dimen name="img_menu_detail_height">200dp</dimen>
+    <dimen name="tv_menu_detail_size">20sp</dimen>
+    <dimen name="img_choice_menu_detail_size">30dp</dimen>
+    <dimen name="item_choice_menu_margin">40dp</dimen>
+    <dimen name="img_menu_detail">400dp</dimen>
+    <dimen name="img_profile_pic">80dp</dimen>
+</resources>

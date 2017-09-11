@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources>
+    <string-array name="array_choice_image">
+        <item>@drawable/ic_choice_direct</item>
+        <item>@drawable/ic_choice_save</item>
+        <item>@drawable/ic_choice_share</item>
+    </string-array>
+    <string-array name="array_me_image">
+        <item>@drawable/ic_me</item>
+        <item>@drawable/ic_setting</item>
+        <item>@drawable/ic_log_out</item>
+    </string-array>
+    <string-array name="array_setting_image">
+        <item>@drawable/ic_language</item>
+    </string-array>
+    <string-array name="array_setting_image_go">
+        <item>@drawable/ic_send</item>
+    </string-array>
+    <integer-array name="array_menu_image">
+        <item>@drawable/food</item>
+        <item>@drawable/drink</item>
+        <item>@drawable/cake</item>
+        <item>@drawable/fruit</item>
+        <item>@drawable/beer</item>
+    </integer-array>
+
+    <string-array name="array_menu_name">
+        <item>Food</item>
+        <item>Drink</item>
+        <item>Cake</item>
+        <item>Fruit</item>
+        <item>Beer</item>
+    </string-array>
+    <string-array name="array_choice">
+        <item>Direct</item>
+        <item>Save</item>
+        <item>Share</item>
+    </string-array>
+
+
+    <string-array name="array_me">
+        <item>Manage Account</item>
+        <item>Setting</item>
+        <item>Log out</item>
+    </string-array>
+
+    <string-array name="array_setting">
+        <item>Language</item>
+    </string-array>
+
+    <string name="app_name">Food And Drink</string>
+    <string name="c_i_t">Setting</string>
+    <string name="ch_n_ng_n_ng">Choose language</string>
+    <string name="ch_n_t_nh_th_nh_ph">Choose city</string>
+    <string name="ch_o_m_ng_b_n_n_v_i_food_and_drink">Welcome to Food and Drink</string>
+    <string name="da_luu1">Saved</string>
+    <string name="email">Email:</string>
+    <string name="facebook_app_id">136624480279001</string>
+    <string name="fb_login_protocol_scheme">fb136624480279001</string>
+    <string name="food">Food</string>
+    <string name="gi_i_t_nh">Gender:</string>
+    <string name="h_t_n">Name:</string>
+    <string name="h_y">Cancel</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="huy1">Cancel</string>
+    <string name="kh_ng_t_m_th_y_d_li_u">No data found</string>
+    <string name="l_u">Saved</string>
+    <string name="l_u_thay_i">Save changes</string>
+    <string name="thi_t_l_p_t_i_kho_n">Manage Account</string>
+    <string name="vui_l_ng_ng_nh_p_b_ng_facebook">Please login with facebook</string>
+    <string name="x_a">Delete</string>
+    <string name="xin_ch_o">"Hello "</string>
+    <string name="xong">Done</string>
+    <string name="xong1">Done</string>
+    <string name="home">Home</string>
+    <string name="me">Me</string>
+    <string name="save">Save</string>
+    <string name="search">Search</string>
+    <string name="Language">English</string>
+    <string name="choose_form_gallery">Choose from gallery</string>
+    <string name="g_n_t_i">Near me</string>
+    <string name="take_a_photo">Take a photo</string>
+    <string name="logout">Log out</string>
+    <string name="logout_question">Do you want to log out?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+</resources>
