@@ -8,7 +8,7 @@ import com.example.hosiluan.foodanddrink.model.MenuDetail;
 
 public class ApiUtils {
 
-    public static final String baseUrl = "https://hosiluanfoodanddrink.000webhostapp.com/";
+    public static final String baseUrl = "http://foodanddrink.dx.am/";
 
     public static CityService getCityService(){
        return RetrofitClient.getClient(baseUrl).create(CityService.class);

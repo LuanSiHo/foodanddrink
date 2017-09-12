@@ -288,8 +288,9 @@ public class MainActivity extends AppCompatActivity
     public void getfoundPlaceResult(ArrayList<Place> places) {
         SearchFragment searchFragment = (SearchFragment) getSupportFragmentManager()
                 .findFragmentByTag(SEARCH_FRAGMENT);
-        searchFragment.setSearchList(places);
-
+        if (searchFragment != null){
+            searchFragment.setSearchList(places);
+        }
     }
 
     @Override
