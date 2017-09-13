@@ -1,10 +1,10 @@
 <resources>
-<dimen name="img_item_menu_width">55.0dp</dimen>
-<dimen name="img_item_menu_height">35.0dp</dimen>
-<dimen name="img_profile_home_size">37.5dp</dimen>
-<dimen name="tv_city_size">9.0sp</dimen>
-<dimen name="tv_hello_home_size">9.5sp</dimen>
-<dimen name="tv_type_place_home_size">8.0sp</dimen>
+    <dimen name="img_item_menu_width">55.0dp</dimen>
+    <dimen name="img_item_menu_height">35.0dp</dimen>
+    <dimen name="img_profile_home_size">37.5dp</dimen>
+    <dimen name="tv_city_size">9.0sp</dimen>
+    <dimen name="tv_hello_home_size">9.5sp</dimen>
+    <dimen name="tv_type_place_home_size">8.0sp</dimen>
     <dimen name="img_place_size">70dp</dimen>
     <dimen name="tv_place_item_size">14sp</dimen>
     <dimen name="item_place_size">80dp</dimen>

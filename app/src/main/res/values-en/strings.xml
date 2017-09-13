@@ -40,7 +40,9 @@
         <item>Share</item>
     </string-array>
 
-
+    <string-array name="img_login">
+        <item>@drawable/foodanddrink</item>
+    </string-array>
     <string-array name="array_me">
         <item>Manage Account</item>
         <item>Setting</item>

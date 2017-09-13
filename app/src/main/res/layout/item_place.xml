@@ -3,18 +3,19 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="#fff"
-    android:orientation="vertical"
-    android:weightSum="10">
+    android:orientation="vertical">
 
     <LinearLayout
-        android:padding="7dp"
-        android:background="@drawable/ripple"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/ripple"
+        android:padding="5dp"
+        android:weightSum="10">
+
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="@dimen/item_place_size"
-            android:layout_weight="2"
+            android:layout_weight="2.5"
             android:gravity="center">
 
             <ImageView
@@ -28,12 +29,11 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="@dimen/item_place_size"
-            android:layout_weight="8"
+            android:layout_weight="7.5"
             android:orientation="vertical"
             android:paddingLeft="5dp">
 
             <TextView
-                android:textSize="@dimen/tv_place_item_size"
                 android:id="@+id/tv_place_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -42,6 +42,7 @@
                 android:lines="1"
                 android:text="Ten quan"
                 android:textColor="@color/textColorPrimary"
+                android:textSize="@dimen/tv_place_item_size"
                 android:textStyle="bold" />
 
 
@@ -52,21 +53,21 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:textSize="@dimen/tv_place_item_size"
                     android:layout_width="10dp"
                     android:layout_height="10dp"
                     android:layout_marginRight="5dp"
-                    android:src="@drawable/ic_address" />
+                    android:src="@drawable/ic_address"
+                    android:textSize="@dimen/tv_place_item_size" />
 
                 <TextView
-                    android:textSize="@dimen/tv_place_item_size"
                     android:id="@+id/tv_place_address"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ellipsize="end"
                     android:lines="1"
                     android:text="Dia chi"
-                    android:textColor="@color/textColorPrimaryLight" />
+                    android:textColor="@color/textColorPrimaryLight"
+                    android:textSize="@dimen/tv_place_item_size" />
             </LinearLayout>
 
             <LinearLayout
@@ -82,14 +83,14 @@
                     android:src="@drawable/ic_time" />
 
                 <TextView
-                    android:textSize="@dimen/tv_place_item_size"
                     android:id="@+id/tv_place_time_range"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ellipsize="end"
                     android:lines="1"
                     android:text="Gio mo cua"
-                    android:textColor="@color/textColorPrimaryLight" />
+                    android:textColor="@color/textColorPrimaryLight"
+                    android:textSize="@dimen/tv_place_item_size" />
             </LinearLayout>
 
             <LinearLayout
@@ -112,16 +113,15 @@
                         android:src="@drawable/ic_price" />
 
                     <TextView
-                        android:textSize="@dimen/tv_place_item_size"
                         android:id="@+id/tv_place_price_range"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Gia "
-                        android:textColor="@color/textColorPrimaryLight" />
+                        android:textColor="@color/textColorPrimaryLight"
+                        android:textSize="@dimen/tv_place_item_size" />
                 </LinearLayout>
 
                 <TextView
-                    android:textSize="14sp"
                     android:id="@+id/tv_place_distance"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -129,12 +129,14 @@
                     android:gravity="right"
                     android:lines="1"
                     android:textColor="@color/textColorPrimary"
+                    android:textSize="14sp"
                     android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
+
     <View
-        android:background="@color/textColorPrimaryLight"
         android:layout_width="match_parent"
-        android:layout_height="1dp"/>
+        android:layout_height="1dp"
+        android:background="@color/textColorPrimaryLight" />
 </LinearLayout>

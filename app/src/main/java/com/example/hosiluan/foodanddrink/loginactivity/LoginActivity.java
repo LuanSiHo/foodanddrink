@@ -3,9 +3,12 @@ package com.example.hosiluan.foodanddrink.loginactivity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.res.TypedArray;
+import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.ImageView;
 
 import com.example.hosiluan.foodanddrink.R;
 import com.example.hosiluan.foodanddrink.mainactivity.MainActivity;
@@ -16,6 +19,9 @@ import com.facebook.GraphRequest;
 import com.facebook.GraphResponse;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
+import com.makeramen.roundedimageview.RoundedTransformationBuilder;
+import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Transformation;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -34,6 +40,7 @@ public class LoginActivity extends AppCompatActivity {
     LoginButton loginButton;
     CallbackManager callbackManager;
     SharedPreferences sharedPreferences;
+    private ImageView imgLoginIcon;
 
 
     @Override
@@ -41,6 +48,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        Log.d("Luan","the helllll");
         sharedPreferences = getSharedPreferences(LOGIN_TOKEN, Context.MODE_PRIVATE);
 
         if (checkLoginStatus()) {
@@ -57,6 +65,16 @@ public class LoginActivity extends AppCompatActivity {
 
         } else {
             Log.d("Luan", "== null");
+            TypedArray images = getResources().obtainTypedArray(R.array.img_login);
+
+            imgLoginIcon = (ImageView) findViewById(R.id.img_login_icon);
+            Transformation transformation = new RoundedTransformationBuilder()
+                    .borderWidthDp(1)
+                    .cornerRadiusDp(100)
+                    .oval(false)
+                    .build();
+            Picasso.with(this).load(images.getResourceId(0,-1))
+                    .transform(transformation).into(imgLoginIcon);
             requestLogin();
         }
     }

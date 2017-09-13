@@ -31,6 +31,9 @@
         <item>@drawable/ic_setting</item>
         <item>@drawable/ic_log_out</item>
     </string-array>
+    <string-array name="img_login">
+        <item>@drawable/foodanddrink</item>
+    </string-array>
 
     <string-array name="array_setting">
         <item>Ngôn ngữ</item>
