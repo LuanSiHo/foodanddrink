@@ -101,9 +101,11 @@ public class ShowDirectionActivity extends AppCompatActivity
                                         + myCurrentLocation.longitude +
                                         "&destination=" + destinationPlace.getMlat() + ","
                                         + destinationPlace.getmLon());
+                        break;
                     }
                     case 2: {
                         createMap();
+                        break;
                     }
                 }
                 return true;
